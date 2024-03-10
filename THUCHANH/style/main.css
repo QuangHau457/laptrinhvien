@@ -1,0 +1,75 @@
+body{
+    margin: 0; 
+}
+
+#container{
+    
+}
+
+.header{
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
+    background-image:url(/THUCHANH/img/background.png);
+    height:100vh;
+}
+
+ 
+ .image{
+    position: absolute;
+    top: 27px;
+    left: 700px;
+    display: block;
+    height:701px;
+    width:513px;
+}
+
+.logo{
+    margin: 0;
+    position: absolute;
+    font-family:  montserrat;
+    left: 400px;
+    top: 50px;
+}
+
+.logo1{ 
+    color: inherit;
+    font-size: 30px;
+    
+}
+
+.logo2{ 
+    font-size: 30px;
+}
+
+
+.thongtin1{
+    position: absolute;
+    font-family:  montserrat;
+    left: 400px;
+    top: 80px;
+}
+
+.thongtinn{
+    margin: 0;
+    position: absolute;
+    font-family:  montserrat;
+    left: 400px;
+    top: 200px;
+}
+
+.thongtin3{
+    position: absolute;
+    font-family:  montserrat;
+    left: 400px;
+    top: 250px;
+}
+
+.thongtin2{
+    position: absolute;
+    font-family:  montserrat;
+    left: 400px;
+    top: 350px;
+}  
+/*
+

@@ -10,8 +10,9 @@ body{
     position: relative;
     margin-left: 0;
     margin-right: 0;
-    background-image:url(/THUCHANH/img/background.png);
+    background-image:url(/img/background.png);
     height:100vh;
+    
 }
 
  
@@ -71,5 +72,44 @@ body{
     left: 400px;
     top: 350px;
 }  
-/*
 
+.headerbutton{
+    font-size: 19px;
+    display: flex;
+    font-family:  montserrat;
+}
+
+.header_button_signin{
+    width: 216px;
+    height: 52px;
+    background-color: rgb(134, 106, 227);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.header_button_readmore{
+    width: 111px;
+    height: 49.6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2.4px solid rgb(38, 38, 91); 
+}
+
+.banner1{
+    width: 200px;
+    height: 182px;
+    
+}
+
+.banner2{
+    font-size: 52px;
+    margin-bottom: 6px;
+}
+
+.banner3{
+    font-size: 18px;
+}

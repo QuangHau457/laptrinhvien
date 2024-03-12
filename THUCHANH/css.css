@@ -1,0 +1,148 @@
+body{
+    color: rgb(38, 38, 91);
+    margin: 0;
+    font-family: monospace;
+}
+
+#container{
+    
+}
+
+/*Header*/
+#header{
+    position: relative; 
+    background-image: url("/Img/background.png");
+    height: 100vh;
+    
+}
+
+.wrap_content{
+    position: absolute;
+    left: 271px;
+    right: 271px;
+}
+
+.header_people{
+    display: block;
+    position: absolute;
+    top: 36px;
+    right: 0;
+    width: 513px;
+    height: 701px;
+}
+
+/* information of header */
+.information{
+    position: absolute;
+    left: 271px;
+}
+
+/*Logo */
+.logo{
+    font-size: 22px;
+    line-height: 28.6px;
+    margin: 60px 0 80px 0;
+}
+
+.logo_second{
+    font-weight: bold;
+}
+
+
+/* description */
+.header_description{
+    
+}
+
+.header_description-tilte{
+    font-size: 51px;
+    line-height: 61.2px;
+}
+
+.header_description-paragraph{
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.header_description-product{
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* Meeting schedule*/
+.header_schedule{
+    margin: 20px 0 20px 0;
+    font-size: 19px;
+    line-height: 24.7px;
+}
+
+.header_schedule-paragraph{
+
+}
+
+.header_schedule-time{
+    font-weight: 700;
+}
+
+.header_schedule-time--red{
+    color: rgb(255, 91, 102);
+}
+
+/* Button of header*/
+.header_button{
+    font-size: 19px;
+    display: flex;
+}
+
+
+.header_button-signin{
+    width: 216px;
+    height: 52px;
+    background-color: rgb(134, 106, 227);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.header_button-readmore{
+    width: 111px;
+    height: 49.6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2.4px solid rgb(38, 38, 91); 
+}
+
+/*Main*/
+.main{
+    position: relative;
+}
+
+/* Banner */
+.banner{
+    height: 182px;
+    background-color: #e7e0e0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner_infomation{
+    width: 200px;
+    height: 182px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner_infomation-quantity{
+    font-size: 52px;
+    margin-bottom: 6px;
+}
+
+.banner_infomation-subject{
+    font-size: 18px;
+}
